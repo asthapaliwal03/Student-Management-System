@@ -1,0 +1,125 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+body{
+	margin:0px;
+	
+}
+.h{
+	padding:10px;
+	font-family:cursive;
+	text-align:center;
+	background-color:#030A2C;
+	color:white;
+	width:100%;
+	margin-bottom:0px;
+	font-weight: 500;
+    line-height: 1.2;
+    font-size:35px;
+}
+.navbar{
+	background-color: #ece9fdcc;
+}
+.menu{
+	 overflow: hidden;
+	 margin-top:0px;
+}
+.menu a{
+	color:black;
+	font-size:15px;
+	text-decoration:none;
+	margin:5px;
+	padding:10px;
+}
+.menu a:hover{
+	background-color:#1026F0;
+	color:white;
+	font-size:18px;
+	padding:20px;
+}
+marquee{
+	padding:7px;
+	color:white;
+}
+td{padding:15px;}
+thead{
+font-weight:bold;
+font-size:17px;}
+.head{
+	padding:12px;
+	font-family:'Libre Baskerville', serif;
+}
+#col{
+	padding:20px;
+	 border-radius: 45px;
+	 margin-top:30px;
+}
+.form{
+ 	border-radius: 10px;
+  border: 2px solid #9A0871;
+  height:100%;
+  padding:10px;
+  margin:10px 20px;
+  background-color:white;
+}
+.h3{
+	color:white;
+}
+.input{
+	width:50%;
+	padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.form-floating{
+	margin:5px;
+}
+img{
+	display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px;
+
+position: absolute;
+width: 350px;
+height: 500px;
+left: 16px;
+bottom:0px;
+}
+.de{
+	postion:flex;
+	right:0px;width: 60%;
+    position: fixed;
+    right: 0px;
+    margin: 10px;
+    padding: 10px;
+}
+.title{
+	position:fixed;
+	right:0px;
+	text-align:center;
+	width:50%;
+	font-family:'Pacifico', cursive;
+	weigth:300px;
+	font-size:40px;
+	margin:20px;
+	color:#6600cc;
+}
+p{
+	position:fixed;
+	right:0px;
+	top:300px;
+	text-align:center;
+	width:50%;
+	font-family:'sanserif', cursive;
+	weigth:300px;
+	font-size:20px;
+	margin:10px;
+	color:red;
+}
